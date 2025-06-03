@@ -1,0 +1,106 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cs14.pikabu.ru/post_img/big/2023/05/07/10/1683477986173112737.jpg);
+    background-size: cover;
+    filter: brightness(70%);
+    z-index: -1;
+}
+
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:   rgba(255,255,255,0.15);
+    backdrop-filter: blur(7px);
+    width: 290px;
+    height: 360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color: rgba(0,0,0);
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.credits{
+    margin-bottom: 25px;
+    background: None;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+    line-height: 2.5;
+}
+
+.credits::placeholder{
+    color: rgba(0,0,0,0.8);
+}
+
+.check{
+    accent-color: black;
+    margin-left: -1px;
+}
+
+.forgot{
+    position: relative;
+    margin-left: 55px;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+}
+
+.log{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 12px;
+    text-align: center;
+    color: rgba(255,255,255);
+    border: none;
+    font-size: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.registr{
+    display: flex;
+    justify-content: center;
+}
+.Reg{
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    margin-left: 6px;
+}
+
+.remember{
+    font-size: 14px;
+}
+
+.log:hover{
+    background-color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,0.8);
+    transition-duration: 0.8s;
+}
+.log::after{
+    transition-duration: 0.8s;
+    background-color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,0.8);
+}
